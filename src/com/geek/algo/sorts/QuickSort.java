@@ -27,6 +27,7 @@ public class QuickSort {
 		if(a.length <= 1){
 			return;
 		}
+		//递归结束条件
 		if(left > right){
 			return;
 		}
@@ -57,7 +58,8 @@ public class QuickSort {
 	 * 双指针法，start 和 end分别指向待排序数组头尾
 	 * 选取分区点pivot为第一个元素或最后一个元素
 	 * 若选取第一个元素则从尾部开始向前找到小于pivot的元素，然后从坐向右找到大于pivot的元素，交换
-	 * 直到start和end相遇，则交换start或end与pivot未知的元素
+	 * 直到start和end相遇，则交换start或end与pivot位置的元素
+	 * 最后返回pivot在数组的最新位置
 	 * @param a
 	 * @param left
 	 * @param right
