@@ -1,4 +1,4 @@
-package com.geek.algo.linkedlist;
+package algo.linkedlist;
 
 /**
  * @author bingg

@@ -1,4 +1,4 @@
-package com.geek.algo.sorts;
+package algo.sorts;
 
 import java.util.Random;
 
